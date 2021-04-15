@@ -1,0 +1,23 @@
+{
+	"coc.preferences.formatOnSaveFiletypes": [
+		"javascript",
+		"typescript",
+		"typescriptreact",
+		"json",
+		"javascriptreact",
+		"typescript.tsx"
+	],
+	"prettier.formatterPriority": 1,
+	"prettier.eslintIntegration": true,
+	"prettier.requireConfig": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.jsxBracketSameLine": true,
+	"prettier.semi": true,
+	"prettier.printWidth": 80,
+	"prettier.jsxSingleQuote": true,
+	"prettier.trailingComma": "none",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	}
+}
