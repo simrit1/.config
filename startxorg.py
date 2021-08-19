@@ -1,3 +1,8 @@
+"""
+A script I wrote for fun to manage different DEs from the TTY terminal in Arch Linux.
+"""
+
+
 import os
 import sys
 import time
