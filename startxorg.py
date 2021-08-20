@@ -8,8 +8,8 @@ import sys
 import time
 
 DESKTOP_ENVIRONMENTS  = {   # The Desktop Env Name and the command(s) to start it with.
-    "xmonad":[ "xmonad"],
-    "xfce4": ["startxfce4"],
+    "xmonad":[ "exec xmonad"],
+    "xfce4": ["exec startxfce4"],
     "gnome": ["export GDK_BACKEND=x11\n", "exec gnome-session"],
     "kde": ["export DESKTOP_SESSION=plasma\n","exec startplasma-x11"],
 }
